@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sukky Cars Ltd</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <div id="header">
+        <h1>Sukky Cars Ltd</h1>
+        <q>When you have too much money</q>
+    </div>
+    <hr/>
+
+    <table>
+        <tr>
+            <td class="image-cell">
+                <img src="img/Honda-City.jpg" alt="Honda City"/>
+            </td>
+            <td class="detail-cell">
+                <span class="model">
+                    <b><a href="https://en.wikipedia.org/wiki/Honda_City">Honda City</a></b> (1.5)
+                </span>
+
+                <div class="info">
+                    <b>2001</b>
+                    <div class="vertical-line">
+                        <b>188 000 km</b>
+                    </div>
+                    <div class="vertical-line">
+                        Petrol
+                    </div>
+                    <div class="vertical-line">
+                        Manual
+                    </div>
+                </div>
+            </td>
+            <td class="price-cell">
+                <span class="price">5 800 €</span>
+                <span class="offer">Financing offer:<br/>80€/mon</span>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="image-cell">
+                <img src="img/Toyota-Camry.jpg" alt="Toyota Camry"/>
+            </td>
+            <td class="detail-cell">
+                <span class="model">
+                    <b><a href="https://en.wikipedia.org/wiki/Toyota_Camry">Toyota Camry</a></b> (2.5)
+                </span>
+
+                <div class="info">
+                    <b>2002</b>
+                    <div class="vertical-line">
+                        <b>55 000 km</b>
+                    </div>
+                    <div class="vertical-line">
+                        Petrol
+                    </div>
+                    <div class="vertical-line">
+                        Auto
+                    </div>
+                </div>
+            </td>
+            <td class="price-cell">
+                <span class="price">8 000 €</span>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="image-cell">
+                <img src="img/Audi-A5.JPG" alt="Audi A5"/>
+            </td>
+            <td class="detail-cell">
+                <span class="model">
+                    <b><a href="https://en.wikipedia.org/wiki/Audi_A5">Audi A5</a></b> (2.8)
+                </span>
+
+                <div class="info">
+                    <b>2010</b>
+                    <div class="vertical-line">
+                        <b>68 000 km</b>
+                    </div>
+                    <div class="vertical-line">
+                        Petrol
+                    </div>
+                    <div class="vertical-line">
+                        Auto
+                    </div>
+                </div>
+            </td>
+            <td class="price-cell">
+                <span class="price">12 800 €</span>
+                <span class="offer">Financing offer:<br/>220€/mon</span>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="image-cell">
+                <img src="img/BMW-M8.jpg" alt="BMW M8"/>
+            </td>
+            <td class="detail-cell">
+                <span class="model">
+                    <b><a href="https://en.wikipedia.org/wiki/BMW_8_Series">BMW M8</a></b> (3.0)
+                </span>
+
+                <div class="info">
+                    <b>2008</b>
+                    <div class="vertical-line">
+                        <b>38 000 km</b>
+                    </div>
+                    <div class="vertical-line">
+                        Petrol
+                    </div>
+                    <div class="vertical-line">
+                        Manual
+                    </div>
+                </div>
+            </td>
+            <td class="price-cell">
+                <span class="price">15 800 €</span>
+            </td>
+        </tr>
+    </table>
+
+    <div id="company-intro">
+        Sukky Cars Ltd is company located in Helsinki.
+        We are selling a lot of old and used cars.
+        We make our best effort that you are happy with your car.
+        For excellent deals please contact our CEO Mr. Huttunen at 030-12334567.
+    </div>
+
+    <div id="contact">
+        <h2>Contact</h2>
+        <form action="http://users.metropolia.fi/~juhov/webP/formTest.php" method="POST">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter Name"/>
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter Email"/>
+            </div>
+
+            <div>
+                <label for="car">Car:</label>
+                <select id="car" name="car">
+                    <option value="honda-city">Honda City</option>
+                    <option value="toyota-camry">Toyota Camry</option>
+                    <option value="audi-a5">Audi A5</option>
+                    <option value="bmw-m8">BMW M8</option>
+                </select>
+            </div>
+
+            <div>
+                <label>Do you have money?</label>
+                <label for="yes">Yes</label>
+                <input type="radio" name="money" id="yes" value="yes">
+
+                <label for="no">No</label>
+                <input type="radio" name="money" id="no" value="no">
+            </div>
+
+            <input type="submit" value="Submit"/>
+        </form>
+    </div>
+
+    <div id="footer">
+        “Sukky Cars Ltd. offers a tail light warranty.
+        This means that the warranty ends when we don’t see your tail lights.”
+    </div>
+</body>
+</html>

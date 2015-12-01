@@ -1,0 +1,114 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    margin: 5px auto;
+    width: 88%;
+    text-align: center;
+}
+
+hr{
+    width: 88%;
+}
+
+table{
+    margin: auto;
+    padding: 5px;
+    border-collapse:collapse;
+    width: 68%;
+}
+
+tr{
+    background-color: lightgrey;
+}
+
+tr:nth-child(even) {
+    background-color: transparent;
+}
+
+td{
+    padding: 5px;
+    text-align: left;
+    vertical-align: top;
+    border: none;
+}
+
+.image-cell{
+    width: 130px;
+}
+
+.image-cell img{
+    height: 120px;
+    width: 200px;
+}
+
+.detail-cell .model{
+    font-size: large;
+}
+
+.detail-cell .info{
+    margin-top: 3em;
+}
+
+.price-cell{
+    text-align: right;
+}
+
+.price-cell span{
+    display: block;
+}
+
+.price-cell .price{
+    padding-top: 1em;
+    font-weight: bold;
+}
+
+.price-cell .offer{
+    font-size: small;
+    color: darkmagenta;
+}
+
+div .vertical-line{
+    border-left: thin solid black;
+    display: inline-block;
+    padding-left: 5px;
+}
+
+#header{
+    text-align: center;
+}
+
+#header h1{
+    color: red;
+    margin-bottom: 0;
+}
+
+#company-intro{
+    margin: 5px auto;
+    text-align: justify;
+    width: 68%;
+}
+
+#contact{
+    margin: 5px auto;
+    text-align: left;
+    width: 68%;
+}
+
+#contact form{
+    margin: 0 28px;
+}
+
+#contact label{
+    display: inline-block;
+}
+
+#contact div{
+    margin: 5px auto;
+}
+
+#footer{
+    text-align: center;
+    font-size: x-small;
+}

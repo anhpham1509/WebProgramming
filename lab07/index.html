@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Sukky Cars Ltd</title>
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+    <body>
+        <div id="header">
+            <h1 id="company-name">Sukky Cars LTD</h1>
+            <q id="motto">Sukky Cars Ltd, When you have a fist full of dollars.</q>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Information</a></li>
+                <li><a href="#">Warranty</a></li>
+                <li><a href="#">Cars</a></li>
+                <li><a href="#">Search</a></li>
+            </ul>
+        </nav>
+
+        <div id="content">
+            <h3>Please fill in the vehicle information and we will find suitable car for you:</h3>
+
+                <div id="labels">
+                    <label for="brand">Car make (Ford ect.):</label>
+                    <label for="model">Model:</label>
+                    <label for="fuel">Gas or Diesels?:</label>
+                    <label for="transmission">Transmission:</label>
+                    <label for="price-range">Price range:</label>
+                    <label for="email">Your email:</label>
+                    <label for="email-again">Your email again:</label>
+                </div>
+
+                <div id="inputs">
+                    <form action="http://users.metropolia.fi/~juhov/webP/formTest.php" method="POST" onsubmit="return validate();">
+                        <input type="text" class="input" name="brand" id="brand" placeholder="Enter car make"/>
+                        <input type="text" class="input" name="model" id="model" placeholder="Enter model"/>
+                        <input type="text" class="input" name="fuel" id="fuel" placeholder="Enter Gas/ Diesels"/>
+                        <input type="text" class="input" name="transmission" id="transmission" placeholder="Enter transmission"/>
+                        <input type="text" class="input" name="price-range" id="price-range" placeholder="Enter price range"/>
+                        <input type="email" class="input" name="email" id="email" placeholder="Enter your email"/>
+                        <input type="email" class="input" name="email-again" id="email-again" placeholder="Retype your email here"/>
+                        <input type="submit" class="send" value="Send"/>
+                    </form>
+                </div>
+
+                <div id="warnings">
+                    <span id="warning-brand"></span>
+                    <span id="warning-model"></span>
+                    <span id="warning-fuel"></span>
+                    <span id="warning-transmission"></span>
+                    <span id="warning-price-range"></span>
+                    <span id="warning-email"></span>
+                    <span id="warning-email-again"></span>
+                </div>
+
+        </div>
+        <script type="text/javascript" src="js/validate.js"></script>
+    </body>
+</html>

@@ -1,0 +1,69 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    margin: auto;
+    width: 68%;
+    background-color: #ffffcc;
+}
+
+label{
+    display: inline-block;
+    float: left;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 5px;
+    text-align: left;
+    width: 120px;
+}
+
+button{
+    font-size: 1em;
+    background-color: lightgray;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+div{
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+#base{
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+#base h2{
+    margin-bottom: 15px;
+}
+
+#form{
+    display: block;
+    float: left;
+}
+
+#form h3{
+    margin-left: 20px;
+}
+
+.input{
+    display: inline-block;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: solid thin;
+    text-align: left;
+    font-size: 1em;
+}
+
+.submit{
+    color: red;
+    font-size: 1em;
+    background-color: lightgray;
+    padding: 5px;
+    margin-left: 125px;
+}

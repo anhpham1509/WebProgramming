@@ -1,0 +1,124 @@
+*{
+    font-family: sans-serif;
+    background-color: #ffffcc;
+}
+
+body{
+    margin: 5px auto;
+    width: 68%;
+}
+
+nav{
+    margin-top: 5em;
+    margin-bottom: 3em;
+    width: 100%;
+}
+
+a{
+    color: inherit;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    margin: 5px auto;
+    background-color: red;
+    font-size: large;
+    color: white;
+    padding: 6px 6%;
+}
+
+form{
+}
+
+label{
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 38%;
+    padding: 5px;
+    height: 1em;
+}
+
+.input{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    height: auto;
+    width: 80%;
+    border: solid thin;
+    font-size: 1em;
+    background-color: white;
+}
+
+#header{
+    text-align: center;
+}
+
+#company-name{
+    color: white;
+    margin-bottom: 12px;
+    background-color: red;
+    padding: 12px;
+}
+
+#motto{
+    font-style: italic;
+    color: deepskyblue;
+}
+
+#content{
+    text-align: left;
+}
+
+#content h3{
+    text-align: center;
+}
+
+#labels{
+    text-align: left;
+    width: 35%;
+    display: inline-block;
+    float: left;
+}
+
+#inputs{
+    text-align: left;
+    width: 30%;
+    display: inline-block;
+    float: left;
+}
+
+.send{
+    margin-top: 10px;
+    padding: 5px;
+    width: 20%;
+    height: auto;
+    background-color: white;
+}
+
+#warnings{
+    text-align: left;
+    width: 30%;
+    display: inline-block;
+    float: left;
+}
+
+#warnings span{
+    display: block;
+    padding: 5px;
+    margin: 8px;
+    height: 1em;
+    font-size: 1em;
+    font-style: italic;
+    color: red;
+}

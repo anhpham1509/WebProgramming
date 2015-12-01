@@ -1,0 +1,11 @@
+<a href="?page=1">First hidden page<a> |
+<a href="?page=2">Second hidden page<a> |
+<a href="?page=3">Third hidden page<a>
+<hr/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<hr/>
+<a href="?logout=true">Logout here</a>

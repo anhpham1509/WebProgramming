@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Google Maps API</title>
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+
+    <body>
+        <h1>Google Maps API</h1>
+
+        <div id="map"></div>
+        <div id="group-button">
+            <button onclick="showMarker();">Sukky Cars Ltd</button>
+            <button onclick="openInfoWindows();">Show info</button>
+        </div>
+
+        <script type="text/javascript" src="js/map.js"></script>
+        <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAe4dh1pwMuO-cNWOSqsN3jnTmC87xLOsM&callback=initMap">
+        </script>
+    </body>
+</html>

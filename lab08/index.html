@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>jQuery and AJAX</title>
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+    <body>
+        <div id="base">
+            <h2>Please select the form that you would like to fill in:</h2>
+            <button onclick="showContactForm();">Contact form</button>
+            <button onclick="showNewsletterForm();">Newsletter form</button>
+        </div>
+
+        <div id="form">
+        </div>
+        <script type="text/javascript">
+            function showContactForm(){
+                $("#form").load("contactForm.html");
+            }
+
+            function showNewsletterForm(){
+                $("#form").load("newsletterForm.html");
+            }
+        </script>
+        <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    </body>
+</html>

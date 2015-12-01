@@ -1,0 +1,32 @@
+<h3>Please fill in to receive our newsletter:</h3>
+<form action="http://users.metropolia.fi/~juhov/webP/formTest.php" method="POST">
+    <div>
+        <label for="name">Name:</label>
+        <input type="text" class="input" name="name" id="name" placeholder="Enter name" autofocus/>
+    </div>
+
+    <div>
+        <label for="interests">Interests:</label>
+        <input type="text" class="input" name="interests" id="interests" placeholder="Enter interests"/>
+    </div>
+
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" class="input" name="email" id="email" placeholder="Enter email"/>
+    </div>
+
+    <input type="submit" class="submit" value="Submit">
+</form>
+
+<script type="text/javascript">
+    $("input").on({
+        focus: function () {
+            $(this).css("background-color", "yellow");
+            $(this).prev().css("font-weight", "bold");
+        },
+        focusout: function () {
+            $(this).css("background-color", "white");
+            $(this).prev().css("font-weight", "normal");
+        }
+    });
+</script>
